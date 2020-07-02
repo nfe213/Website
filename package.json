@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "Nathan Eads",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
