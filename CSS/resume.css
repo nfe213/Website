@@ -311,3 +311,7 @@ body {
   color: white;
   font-size: 18px;
 }
+
+.res-body {
+  height: auto;
+}
