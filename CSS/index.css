@@ -329,3 +329,29 @@ ul {
 .carousel-cell:hover .overlay {
   opacity: .85;
 }
+
+.base {
+  width: 100%;
+  background-color: var(--light);
+  margin-left: 0px;
+  text-align: center;
+  color: var(--ultra-light);
+  font-family: Heebo, sans-serif;
+  padding-top: 42px;
+  padding-bottom: 63px;
+}
+
+.base-head {
+  font-size: 21px;
+  padding-top: 24px;
+}
+
+.base-text {
+  font-size: 24px;
+  color: white;
+}
+
+.base-link {
+  color: white;
+  font-size: 18px;
+}
