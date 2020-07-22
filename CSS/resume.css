@@ -266,24 +266,28 @@ body {
   border-radius: 4px;
   border-width: medium;
   border-style: solid;
-  border-color: var(--light);
+  border-color: white;
   background-color: var(--dark-grey);
   font-size: 21px;
   color: var(--ultra-light);
   font-family: Heebo, sans-serif;
   transition: background .75s;
+  transition: border-color 0.2s;
+}
 
+.button:hover {
+  background-color: var(--light);
+  color: white;
+  border-color: var(--light);
+  transition: background .75s;
+  transition: border-color .25s;
 }
 
 .button:focus {
   outline: none;
 }
 
-.button:hover {
-  background-color: var(--light);
-  color: white;
-  transition: background .75s;
-}
+
 
 
 .base {
