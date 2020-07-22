@@ -1,0 +1,80 @@
+:root {
+  --heading-text-padding: 24px;
+  --light: #008080;
+  --dark: #004c4c;
+  --dark-grey: #282828;
+  --header-text-size: 21px;
+  --light-grey: #96958d;
+  --mid-grey:  #6a6a6a;
+  --ultra-light: #B2D8D8;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--dark-grey);
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--light);
+  color: white;
+  overflow: auto;
+  height: auto;
+}
+
+.headers {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: right;
+}
+
+.h-left {
+  display: inline-block;
+  float: left;
+  font-family: Heebo, sans-serif;
+  font-size: 30px;
+  margin: 0px;
+  padding: 21px 15px;
+
+}
+
+.header-obj {
+  display: inline-block;
+  padding: 21px 15px;
+  font-size: var(--header-text-size);
+  color: white;
+  text-decoration: none;
+  border:0px;
+  font-size: 30px;
+}
+
+.header-obj-end {
+  display: inline-block;
+  padding: 21px 15px;
+  font-size: var(--header-text-size);
+  color: white;
+  text-decoration: none;
+  border:0px;
+  font-size: 30px;
+}
+
+.header-obj:hover {
+  background: white;
+  color: var(--dark);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.header-obj-end:hover {
+  background: white;
+  color: var(--dark);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.logo {
+  float: left;
+  height: 35px;
+  width: auto;
+  padding: 21px 0px;
+}
