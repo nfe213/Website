@@ -48,6 +48,8 @@ body {
   text-decoration: none;
   border:0px;
   font-size: 30px;
+  transition: background .5s;
+
 }
 
 .header-obj-end {
@@ -58,6 +60,8 @@ body {
   text-decoration: none;
   border:0px;
   font-size: 30px;
+  transition: background .5s;
+
 }
 
 .header-obj:hover {

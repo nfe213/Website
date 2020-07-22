@@ -41,6 +41,8 @@ p {
   text-decoration: none;
   border:0px;
   font-size: 30px;
+  transition: background .5s;
+
 }
 
 .header-obj-end {
@@ -51,6 +53,8 @@ p {
   text-decoration: none;
   border:0px;
   font-size: 30px;
+  transition: background .5s;
+
 }
 
 /*.h-left {
