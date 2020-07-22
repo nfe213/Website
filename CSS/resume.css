@@ -169,11 +169,11 @@ body {
 }
 
 .canvas {
-  width: 65%;
-  margin-left: 17.5%;
-  margin-right: 17%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 24.5%;
   margin-top: 42px;
-  margin-bottom: 42px;
+  margin-bottom: 84px;
   border-radius: 7px;
   border-color: white;
   border-style: solid;
