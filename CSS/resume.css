@@ -290,6 +290,7 @@ body {
   font-family: Heebo, sans-serif;
   padding-top: 42px;
   padding-bottom: 63px;
+  height: auto;
 }
 
 .base-head {
