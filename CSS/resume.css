@@ -218,6 +218,8 @@ body {
   text-decoration: none;
   border:0px;
   font-size: 30px;
+  transition: background .5s;
+
 }
 
 .header-obj-end {
@@ -228,6 +230,7 @@ body {
   text-decoration: none;
   border:0px;
   font-size: 30px;
+  transition: background .5s;
 }
 
 .header-obj:hover {
@@ -267,6 +270,7 @@ body {
   font-size: 21px;
   color: var(--ultra-light);
   font-family: Heebo, sans-serif;
+  transition: background .75s;
 
 }
 
