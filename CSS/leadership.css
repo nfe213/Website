@@ -16,7 +16,6 @@ body {
   font-weight: normal;
 }
 
-
 h1 {
   font-weight: normal;
 }
@@ -27,7 +26,6 @@ h1 {
   color: white;
   overflow: auto;
   height: auto;
-  transition: background .5s;
 }
 
 .headers {
@@ -35,7 +33,6 @@ h1 {
   padding-left: 10%;
   padding-right: 10%;
   text-align: right;
-  transition: background .5s;
 }
 
 .h-left {
@@ -75,12 +72,14 @@ h1 {
   background: white;
   color: var(--dark);
   border-radius: 4px 4px 0px 0px;
+  transition: background .5s;
 }
 
 .header-obj-end:hover {
   background: white;
   color: var(--dark);
   border-radius: 4px 4px 0px 0px;
+  transition: background .5s;
 }
 
 .logo {

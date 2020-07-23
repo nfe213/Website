@@ -27,16 +27,35 @@ p {
   padding:0px;
 }
 
+body {
+  margin: 0px;
+  background-color: var(--dark-grey);
+  font-family: sans-serif;
+}
+
 .header {
+  width: 100%;
   background-color: var(--light);
+  color: white;
+  overflow: auto;
+  height: 66px;
+}
+
+.headers {
   width: 80%;
-  text-align: right;
-  padding-left: 0px;
-  padding-right: 0px;
-  height: auto;
   padding-left: 10%;
   padding-right: 10%;
-  text-align: center;
+  text-align: right;
+}
+
+.h-left {
+  display: inline-block;
+  float: left;
+  font-family: Heebo, sans-serif;
+  font-size: 24px;
+  margin: 0px;
+  margin: 18px 15px 15px 15px;
+
 }
 
 .header-obj {
@@ -46,7 +65,7 @@ p {
   color: white;
   text-decoration: none;
   border:0px;
-  font-size: 30px;
+  font-size: 24px;
   transition: background .5s;
 
 }
@@ -58,18 +77,10 @@ p {
   color: white;
   text-decoration: none;
   border:0px;
-  font-size: 30px;
+  font-size: 24px;
   transition: background .5s;
-
 }
 
-/*.h-left {
-  float: left;
-  font-size: 30px;
-  color: white;
-  padding: 21px 15px;
-  font-family: Heebo, sans-serif;
-}*/
 
 .header-obj:hover {
   background: white;
@@ -84,6 +95,14 @@ p {
   border-radius: 4px 4px 0px 0px;
   transition: background .5s;
 }
+
+.logo {
+  float: left;
+  height: 35px;
+  width: auto;
+  padding: 15px 0px;
+}
+
 
 
 
