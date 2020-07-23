@@ -83,3 +83,53 @@ body {
   width: auto;
   padding: 21px 0px;
 }
+
+.section {
+  width: 100%;
+}
+
+.tbl{
+  color: white;
+  font-family: Heebo, sans-serif;
+  border-collapse: collapse;
+  text-align: left;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.tbl td, .tbl th {
+  padding: 8px 48px 8px 5px;
+  border-bottom: 1px solid var(--mid-grey);
+}
+
+.tbl th {
+  text-align: left;
+  background-color: none;
+  color: var(--ultra-light);
+}
+
+.head {
+  color: var(--mid-grey);
+  margin-bottom: 0px;
+  margin-left: 20%;
+  padding-top: 21px;
+}
+
+.row:hover {background-color: #191919;}
+
+.c1 {
+  width: 30%;
+}
+
+.c2 {
+  width: 30%;
+}
+
+.c3 {
+  width: 25%;
+}
+
+.c4 {
+  width: 15%;
+}

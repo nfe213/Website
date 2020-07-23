@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>Nathan Eads // Articles</title>
     <link rel="stylesheet" type="text/css" href="../CSS/articles.css">
+    <script src="articles.js"></script>
   </head>
   <body>
     <body>
       <div class="header">
         <div class="headers">
-          <img class="logo" src="./src/logo/icon.png" alt="Nathan Eads Logo">
+          <img class="logo" src="../src/logo/icon.png" alt="Nathan Eads Logo">
           <p class="h-left">Nathan Eads</p>
           <a class="header-obj" href="../index.html">Home</a>
           <a class="header-obj" href="./articles.html">Articles</a>
@@ -18,31 +19,86 @@
         </div>
       </div>
       <div class="section">
-        <div class="tableWrapper">
-            <h1 class="Table Header">Atlanta Face Shields</h1>
+        <table class="tbl">
+            <h1 class="head">Atlanta Face Shields</h1>
             <tbody>
-              <tr class="table-header-row">
-                <td>Name</th>
-                <td>Publisher</th>
-                <td>Date</th>
-                <td>Involvement</td>
+              <tr>
+                <th class="c1">Description</th>
+                <th class="c2">Publisher</th>
+                <th class="c3">Date</th>
+                <th class="c4">Involvement</th>
               </tr>
-              <tr class="row" onclick="window.location='"https://www.atlantabsa.org/WeAreHelpful"'">
+              <tr class="row" onclick="BSA()">
                 <td>We Are Helpful Webinar</td>
                 <td>Atlanta Area BSA</td>
                 <td>May 14, 2020</td>
                 <td>Speaker</td>
               </tr>
+              <tr class="row" onclick="Pres()">
+                <td>University President Letter</td>
+                <td>University of Alabama</td>
+                <td>April 13, 2020</td>
+                <td>Referenced</td>
+              </tr>
+              <tr class="row" onclick="Mag()">
+                <td>Face Shields in Atlanta</td>
+                <td>Atlanta Magazine</td>
+                <td>April 9, 2020</td>
+                <td>Referenced</td>
+              </tr>
+              <tr class="row" onclick="News()">
+                <td>Giving Back to Community</td>
+                <td>Northside Neighbor</td>
+                <td>March 31, 2020</td>
+                <td>Quoted</td>
+              </tr>
             </tbody>
-        </div>
-
-
+        </table>
       </div>
+
       <div class="section">
-        <h1>Riverwood MakerSpace</h1>
-        <a href="https://patch.com/georgia/sandysprings/makerspace-allows-riverwood-students-explore-stem-activities">MakerSpace</a>
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Read about 2019 Riverwood alums, Max Siedel and Nathan Eads, who founded Atlanta Face Shields to provide reusable face shields for Georgia healthcare workers. Learn how you can support their efforts on their Go Fund Me page! <a href="https://t.co/oF40dq12EE">https://t.co/oF40dq12EE</a> via <a href="https://twitter.com/NorthsideNbr?ref_src=twsrc%5Etfw">@NorthsideNbr</a></p>&mdash; Riverwood ICS (@RiverwoodICS) <a href="https://twitter.com/RiverwoodICS/status/1245799013032644608?ref_src=twsrc%5Etfw">April 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <a href="https://twitter.com/RiverwoodICS/status/1245799013032644608?s=20">Tweet</a>
+        <table class="tbl">
+          <h1 class="head">Riverwood MakerSpace</h1>
+          <tbody>
+            <tr>
+              <th class="c1">Description</th>
+              <th class="c2">Publisher</th>
+              <th class="c3">Date</th>
+              <th class="c4">Involvement</th>
+            </tr>
+            <tr class="row" onclick="tweet()">
+              <td>Face Shields & MakerSpace</td>
+              <td>Riverwood HS Foundation</td>
+              <td>April 2, 2020</td>
+              <td>Referenced</td>
+            </tr><tr class="row" onclick="patch()">
+              <td>Rivewood MakerSpace</td>
+              <td>Patch Newspaper</td>
+              <td>September 18, 2018</td>
+              <td>Referenced</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <table class="tbl">
+          <h1 class="head">Riverwood Mountain Bike Team</h1>
+          <tbody>
+            <tr>
+              <th class="c1">Description</th>
+              <th class="c2">Publisher</th>
+              <th class="c3">Date</th>
+              <th class="c4">Involvement</th>
+            </tr>
+            <tr class="row" onclick="mtb()">
+              <td>Face Shields & MakerSpace</td>
+              <td>Riverwood High School</td>
+              <td>February 6, 2019</td>
+              <td>Referenced</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </body>
 </html>
