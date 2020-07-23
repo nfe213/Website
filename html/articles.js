@@ -25,3 +25,7 @@ function patch() {
 function mtb() {
   window.open("https://patch.com/georgia/sandysprings/riverwood-mountain-biking-team-places-1st-season");
 }
+
+function forKai() {
+  window.open("https://patch.com/georgia/sandysprings/riverwood-s-robotics-team-compete-state-competition");
+}
