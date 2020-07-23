@@ -15,10 +15,7 @@ h1 {
   font-weight: normal;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 .top-bar {
   background: #333;
@@ -322,6 +319,7 @@ body {
   font-size: 18px;
 }
 
-.res-body {
-  height: auto;
+* {
+  margin: 0;
+  padding: 0;
 }

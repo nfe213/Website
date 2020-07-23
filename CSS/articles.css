@@ -93,6 +93,11 @@ h1 {
   width: 100%;
 }
 
+.section-final {
+  width: 100%;
+  margin-bottom: 63px;
+}
+
 .tbl{
   color: white;
   font-family: Heebo, sans-serif;
@@ -115,10 +120,20 @@ h1 {
 }
 
 .head {
-  color: var(--mid-grey);
+  color: var(--light-grey);
   margin-bottom: 0px;
   margin-left: 20%;
-  padding-top: 21px;
+  margin-top: 0px;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.head-top {
+  color: var(--light-grey);
+  margin-bottom: 0px;
+  margin-left: 20%;
+  margin-top: 0px;
+  display: inline-block;
 }
 
 .row:hover {background-color: #191919;}
@@ -142,4 +157,59 @@ h1 {
 .super-header {
   text-align: center;
   color: var(--light);
+  padding-top: 83px;
+  margin: 0px;
+}
+
+.c1-3 {
+  width: 35%;
+}
+
+.c2-3 {
+  width: 35%;
+}
+
+.c3-3 {
+  width: 30%;
+}
+
+.role {
+  font-size: 18px;
+  display:  inline-block;
+  font-family: Heebo, sans-serif;
+  color: var(--mid-grey);
+  font-weight:lighter;
+  padding-left: 11px;
+}
+
+.base {
+  width: 100%;
+  background-color: var(--light);
+  margin-left: 0px;
+  text-align: center;
+  color: var(--ultra-light);
+  font-family: Heebo, sans-serif;
+  padding-top: 42px;
+  padding-bottom: 63px;
+  height: auto;
+}
+
+.base-head {
+  font-size: 18px;
+  padding-top: 24px;
+}
+
+.base-text {
+  font-size: 24px;
+  color: white;
+}
+
+.base-link {
+  color: white;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
