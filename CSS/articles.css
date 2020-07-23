@@ -16,6 +16,10 @@ body {
   font-weight: normal;
 }
 
+h1 {
+  font-weight: normal;
+}
+
 .header {
   width: 100%;
   background-color: var(--light);
