@@ -133,3 +133,8 @@ body {
 .c4 {
   width: 15%;
 }
+
+.super-header {
+  text-align: center;
+  color: var(--light);
+}
