@@ -1,4 +1,4 @@
-const url = './docs/Eads.pdf';
+const url = '../docs/Eads.pdf';
 
 console.log("running");
 
