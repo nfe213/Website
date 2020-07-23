@@ -26,8 +26,7 @@ h1 {
   background-color: var(--light);
   color: white;
   overflow: auto;
-  height: auto;
-  transition: background .5s;
+  height: 66px;
 }
 
 .headers {
@@ -35,7 +34,6 @@ h1 {
   padding-left: 10%;
   padding-right: 10%;
   text-align: right;
-  transition: background .5s;
 }
 
 .h-left {
@@ -44,7 +42,7 @@ h1 {
   font-family: Heebo, sans-serif;
   font-size: 24px;
   margin: 0px;
-  margin: 21px 15px 15px 15px;
+  margin: 18px 15px 15px 15px;
 
 }
 
