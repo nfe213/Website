@@ -9,20 +9,6 @@
   --ultra-light: #B2D8D8;
 }
 
-
-}:root {
-  --heading-text-padding: 24px;
-  --light: #008080;
-  --dark: #004c4c;
-  --dark-grey: #282828;
-  --header-text-size: 21px;
-  --light-grey: #96958d;
-  --mid-grey:  #6a6a6a;
-  --ultra-light: #B2D8D8;
-}
-
-
-
 body {
   margin: 0px;
   background-color: var(--dark-grey);
@@ -39,7 +25,7 @@ h1 {
   background-color: var(--light);
   color: white;
   overflow: auto;
-  height: 66px;
+  height: 70px;
 }
 
 .headers {
@@ -55,7 +41,7 @@ h1 {
   font-family: Heebo, sans-serif;
   font-size: 24px;
   margin: 0px;
-  margin: 18px 15px 15px 15px;
+  margin: 21px 15px 15px 15px;
 
 }
 

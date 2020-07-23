@@ -38,7 +38,7 @@ body {
   background-color: var(--light);
   color: white;
   overflow: auto;
-  height: 66px;
+  height: 70px;
 }
 
 .headers {
@@ -54,7 +54,7 @@ body {
   font-family: Heebo, sans-serif;
   font-size: 24px;
   margin: 0px;
-  margin: 18px 15px 15px 15px;
+  margin: 21px 15px 15px 15px;
 
 }
 
