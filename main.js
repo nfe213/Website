@@ -1,5 +1,7 @@
 const url = './docs/Eads.pdf';
 
+console.log("running");
+
 let pdfDoc = null,
   pageNum = 1,
   pageIsRendering = false,
