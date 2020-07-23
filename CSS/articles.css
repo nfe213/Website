@@ -155,10 +155,12 @@ h1 {
 }
 
 .super-header {
-  text-align: center;
+  text-align: left;
   color: var(--light);
   padding-top: 83px;
   margin: 0px;
+  padding-left: 20%;
+  font-size: 36px;
 }
 
 .c1-3 {

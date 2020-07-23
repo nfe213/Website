@@ -140,13 +140,18 @@ p {
   font-size: 18px;
 }
 
-h1 {font-size: 24px;
-color: var(--mid-grey)}
+h1 {
+  font-size: 24px;
+  color: var(--mid-grey);
+  margin-top: 0px;
+}
 
 .super-header {
   font-size: 30px;
   color: white;
   padding-top: 42px;
+  color: var(--light);
+  margin-bottom: 0px;
 }
 
 .sec1 {
@@ -177,4 +182,8 @@ color: var(--mid-grey)}
 .text {
   color: var(--ultra-light);
   margin-top: 0px;
+}
+
+.block-head {
+  color: var(--light-grey);
 }
