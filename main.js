@@ -75,7 +75,7 @@ pdfjsLib
 
     renderPage(pageNum);
   })
-  
+
 
 // Button Events
 document.querySelector('#prev-page').addEventListener('click', showPrevPage);
