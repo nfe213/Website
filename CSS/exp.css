@@ -3,7 +3,6 @@
   --light: #008080;
   --dark: #004c4c;
   --dark-grey: #282828;
-  --header-text-size: 24px;
   --light-grey: #96958d;
   --mid-grey:  #6a6a6a;
   --ultra-light: #B2D8D8;
@@ -47,19 +46,18 @@ h1 {
 
 .header-obj {
   display: inline-block;
-  padding: 21px 15px 14px 15px;
-  font-size: var(--header-text-size);
+  padding: 21px 15px;
   color: white;
   text-decoration: none;
   border:0px;
   font-size: 24px;
   transition: background .5s;
+  line-height: 28px;
 }
 
 .header-obj-end {
   display: inline-block;
   padding: 21px 15px 14px 15px;
-  font-size: var(--header-text-size);
   color: white;
   text-decoration: none;
   border:0px;

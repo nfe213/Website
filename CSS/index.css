@@ -3,7 +3,6 @@
   --light: #008080;
   --dark: #004c4c;
   --dark-grey: #282828;
-  --header-text-size: 21px;
   --light-grey: #96958d;
   --mid-grey:  #6a6a6a;
   --ultra-light: #B2D8D8;
@@ -55,7 +54,6 @@ p {
 .header-obj {
   display: inline-block;
   padding: 21px 15px;
-  font-size: var(--header-text-size);
   color: white;
   text-decoration: none;
   border:0px;
@@ -67,7 +65,6 @@ p {
 .header-obj-end {
   display: inline-block;
   padding: 21px 15px;
-  font-size: var(--header-text-size);
   color: white;
   text-decoration: none;
   border:0px;
