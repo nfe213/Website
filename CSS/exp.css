@@ -275,10 +275,13 @@ h1 {
   font-size: 24px;
   color: white;
   margin-bottom: 0px;
+  margin-top: 0px;
   padding-top: 0px;
 }
 
 .base-link {
   color: white;
   font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
 }

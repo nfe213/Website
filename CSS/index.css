@@ -309,6 +309,8 @@ ul {
   color: white;
   display: inline-block;
   padding-right: 5px;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .exp-header {
@@ -385,4 +387,6 @@ ul {
 .base-link {
   color: white;
   font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
 }
