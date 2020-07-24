@@ -7,8 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script type="text/javascript" src="./home.js"></script>
+    <script type="text/javascript" src="./base.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
   </head>
   <body>
     <div class="header">
@@ -52,7 +53,7 @@
       </div>
     </div>
 
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": 6000, "pageDots": false, "wrapAround": true, "groupCells": true}'>
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": 6000, "pageDots": false, "wrapAround": true, "groupCells": true, "lazyLoad": true, "imagesLoaded": true}'>
       <div class="carousel-cell">
         <img class="img" src="./src/baja.jpg" alt="Image">
           <div class="overlay">
@@ -163,9 +164,9 @@
             <p class="exp-text">In the face of the COVID-19 Pandemic, my partner, Max Seidel, and I cofounded Atlanta Face Shields to provide 3D printed PPE to medical professionals in the Metro Atlanta area. This mission was continued into the 2020 Fall semester at the University of Alabama, Northeastern University, and Georgia Tech.</p>
             <p class="exp-text-br">We raised around $30,000 through various resources in under three months and assembled over 4,000 face shields.</p></p>
             <p class="exp-sub">Related Links</p>
-            <a class="exp-link" href="#">Website</a>
-            <a class="exp-link" href="https://www.instagram.com/atlantafaceshields/">Instagram</a>
-            <a class="exp-link" href="https://www.gofundme.com/manage/atlanta-face-shields">GoFundMe</a>
+            <a class="exp-link" onclick="AtlFsSite()">Website</a>
+            <a class="exp-link" onclick="AtlFsInsta()">Instagram</a>
+            <a class="exp-link" onclick="AtlFsGFM()">GoFundMe</a>
           </div>
         </div>
 
@@ -178,8 +179,8 @@
             <p class="exp-sub">Electrical Design Team Leader: August 2019 - Present</p>
             <p class="exp-text">I work for the University of Alabama's off-road 'Baja' race team as the Electrical Team Lead. In this position I have massively broadened my knowledge of microcontrollers, electrical design, 3D printing, and have been able to explore various radio technologies. I have also been able to expand upon my leadership abilities.</p>
             <p class="exp-sub">Related Links</p>
-            <a class="exp-link" href="https://www.instagram.com/ua_bamaracing/">Instagram</a>
-            <a class="exp-link" href="https://ua.campuslabs.com/engage/organization/bamaracing">University of Alabama Clubs Page</a>
+            <a class="exp-link" onclick="BRInsta()">Instagram</a>
+            <a class="exp-link" onclick="BRSite()">University of Alabama Clubs Page</a>
           </div>
       </div>
 
@@ -192,16 +193,16 @@
           <p class="exp-sub">Student Employee: August 2019 - Present</p>
           <p class="exp-text">I work for the University of Alabama's 3D plastics printing lab. Here, I work on a team to manage a cluster of 10 Dremel 3D45 printers plus an assortment of industrial printers. I greatly enjoy helping my visiting peers understand the mechanics of 3D printing and how they can optimize their designs to be 3D printed.</p>
           <p class="exp-sub">Related Links</p>
-          <a class="exp-link" href="https://www.instagram.com/the_cube_ua/">Instagram</a>
-          <a class="exp-link" href="https://thecube.eng.ua.edu/">Website</a>
+          <a class="exp-link" onclick="onclick='CubeInsta()'">Instagram</a>
+          <a class="exp-link" onclick="CubeSite()">Website</a>
         </div>
       </div>
     </div>
 
       <div class="base">
         <p class="base-text" >Contact</p>
-        <a class="base-link" href="mailto: eadsnf@gmail.com">Email</a>
-        <a class="base-link" href="https://www.linkedin.com/in/nathan-eads-b1693a185/">LinkedIn</a>
+        <a class="base-link" onclick="mail()">Email</a>
+        <a class="base-link" onclick="linkedIN()">LinkedIn</a>
         <p class="base-head" >© 2020 Nathan Eads</p>
       </div>
 

@@ -282,4 +282,6 @@ h1 {
 .base-link {
   color: white;
   font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
 }
