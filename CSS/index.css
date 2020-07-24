@@ -38,7 +38,7 @@ body {
   background-color: var(--light);
   color: white;
   overflow: auto;
-  height: auto;
+  height: 71px;
 }
 
 .headers {
