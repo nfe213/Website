@@ -103,31 +103,31 @@ h1 {
 }
 
 .col2 {
-  width: 77%;
-  padding-left: 3%;
+  width: 80%;
   display: inline-block;
   float: right;
 }
 
 .col1-small {
-  width: 40%;
+  width: 180px;
   display: inline-block;
   float: left;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .col2-small {
-  width: 57%;
-  padding-left: 3%;
+  width: 70%;
   display: inline-block;
   float: right;
 }
 
 .pic {
-  width: 70%;
+  width: 90%;
   height: auto;
   display:block;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 0%;
+  margin-right: 0%;
   border-radius: 7px;
 
 }
@@ -154,10 +154,6 @@ h1 {
   margin-bottom: 0px;
 }
 
-.sec1 {
-  padding-left: 42px;
-}
-
 .super-col1 {
   width: 47.5%;
   display: inline-block;
@@ -172,7 +168,8 @@ h1 {
 }
 
 .super-cols {
-  padding-bottom: 350px;
+  height: auto;
+  overflow: auto;
 }
 
 .fam-head {
@@ -186,4 +183,99 @@ h1 {
 
 .block-head {
   color: var(--light-grey);
+}
+
+.row:hover {background-color: #191919;}
+
+.c1 {
+  width: 15%;
+}
+
+.c2 {
+  width: 25%;
+}
+
+.c3 {
+  width: 45%;
+}
+
+.c4 {
+  width: 15%;
+}
+
+.role {
+  font-size: 18px;
+  display:  inline-block;
+  font-family: Heebo, sans-serif;
+  color: var(--mid-grey);
+  font-weight:lighter;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 11px;
+}
+
+.head-top {
+  color: var(--light-grey);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.tbl td, .tbl th {
+  padding: 8px 48px 8px 5px;
+  border-bottom: 1px solid var(--mid-grey);
+}
+
+.tbl th {
+  text-align: left;
+  background-color: none;
+  color: var(--ultra-light);
+}
+
+.tbl{
+  color: white;
+  font-family: Heebo, sans-serif;
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+
+}
+
+.section, .section-last{
+  width: 100%;
+}
+
+.section-last {
+  margin-bottom: 42px;
+}
+
+
+.base {
+  width: 100%;
+  background-color: var(--light);
+  margin-left: 0px;
+  text-align: center;
+  color: var(--ultra-light);
+  font-family: Heebo, sans-serif;
+  padding-top: 42px;
+  padding-bottom: 63px;
+  height: auto;
+}
+
+.base-head {
+  font-size: 18px;
+  padding-top: 24px;
+}
+
+.base-text {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.base-link {
+  color: white;
+  font-size: 18px;
 }
