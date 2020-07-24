@@ -38,7 +38,7 @@ body {
   background-color: var(--light);
   color: white;
   overflow: auto;
-  height: 71px;
+  height: 70px;
 }
 
 .headers {
@@ -54,7 +54,7 @@ body {
   font-family: Heebo, sans-serif;
   font-size: 24px;
   margin: 0px;
-  margin: 21px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
 
 }
 
@@ -82,6 +82,7 @@ body {
 }
 
 
+
 .header-obj:hover {
   background: white;
   color: var(--dark);
@@ -101,9 +102,8 @@ body {
   height: 35px;
   width: auto;
   padding: 15px 0px;
+  margin: 0px;
 }
-
-
 
 
 .intro {
