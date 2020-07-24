@@ -47,26 +47,24 @@ h1 {
 
 .header-obj {
   display: inline-block;
-  padding: 21px 15px;
+  padding: 21px 15px 14px 15px;
   font-size: var(--header-text-size);
   color: white;
   text-decoration: none;
   border:0px;
   font-size: 24px;
   transition: background .5s;
-  height: 70px;
 }
 
 .header-obj-end {
   display: inline-block;
-  padding: 21px 15px;
+  padding: 21px 15px 14px 15px;
   font-size: var(--header-text-size);
   color: white;
   text-decoration: none;
   border:0px;
   font-size: 24px;
   transition: background .5s;
-  height: 70px;
 }
 
 .header-obj:hover {
