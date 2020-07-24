@@ -27,12 +27,6 @@ p {
   padding:0px;
 }
 
-body {
-  margin: 0px;
-  background-color: var(--dark-grey);
-  font-family: sans-serif;
-}
-
 .header {
   width: 100%;
   background-color: var(--light);
