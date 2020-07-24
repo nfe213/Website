@@ -267,6 +267,7 @@ h1 {
 .base-head {
   font-size: 18px;
   padding-top: 24px;
+  margin-top: 0px;
 }
 
 .base-text {
