@@ -46,7 +46,7 @@ h1 {
 
 .header-obj {
   display: inline-block;
-  padding: 21px 15px;
+  padding: 21px 0px;
   color: white;
   text-decoration: none;
   border:0px;
@@ -55,16 +55,28 @@ h1 {
   line-height: 28px;
 }
 
+.one{
+  width: 94.03px;
+}
+
+.two {
+  width: 216.3px;
+}
+
+.three {
+  width: 150.08px;
+}
+
 .header-obj-end {
   display: inline-block;
-  padding: 21px 15px;
+  padding: 21px 0px;
   color: white;
   text-decoration: none;
   border:0px;
   font-size: 24px;
   transition: background .5s;
   line-height: 28px;
-
+  width: 119.38px;
 }
 
 .header-obj:hover {
