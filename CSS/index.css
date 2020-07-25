@@ -307,10 +307,8 @@ ul {
   letter-spacing: 2px;
   color: #d9d9d9;
   font-family: Heebo, sans-serif;
-  padding-left: 21px;
-  padding-right: 21px;
   text-align: center;
-  padding-bottom: 21px;
+  padding: 42px 21px;
 }
 
 .img {
