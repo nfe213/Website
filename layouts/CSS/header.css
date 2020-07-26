@@ -44,6 +44,7 @@
   font-size: var(--header-font-size);
   transition: background .5s;
   border-radius: 4px 4px 0px 0px;
+  cursor: pointer;
 }
 
 .header-obj-end {
@@ -54,6 +55,7 @@
   font-size: var(--header-font-size);
   transition: background .5s;
   border-radius: 4px 4px 0px 0px;
+  cursor: pointer;
 }
 
 

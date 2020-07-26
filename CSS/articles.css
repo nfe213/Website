@@ -30,6 +30,16 @@ h1 {
 }
 /* End copy. */
 
+/* Copy class for base object. */
+.base-object {
+  height: 283px;
+  width: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  display: block;
+}
+/* End copy. */
+
 .section {
   width: 100%;
 }

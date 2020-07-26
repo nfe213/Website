@@ -34,6 +34,16 @@ p {
 }
 /* End copy. */
 
+/* Copy class for base object. */
+.base-object {
+  height: 283px;
+  width: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  display: block;
+}
+/* End copy. */
+
 .intro {
   padding-top: 21px;
   padding-bottom: 21px;
@@ -287,32 +297,4 @@ ul {
 
 .carousel-cell:hover .overlay {
   opacity: .85;
-}
-
-.base {
-  width: 100%;
-  background-color: var(--light);
-  margin-left: 0px;
-  text-align: center;
-  color: var(--ultra-light);
-  font-family: Heebo, sans-serif;
-  padding-top: 42px;
-  padding-bottom: 63px;
-}
-
-.base-head {
-  font-size: 18px;
-  padding-top: 24px;
-}
-
-.base-text {
-  font-size: 24px;
-  color: white;
-}
-
-.base-link {
-  color: white;
-  font-size: 18px;
-  text-decoration: underline;
-  cursor: pointer;
 }
