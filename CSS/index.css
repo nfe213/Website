@@ -286,7 +286,7 @@ p {
 }
 
 /* Media Queries */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 800px) {
   body{
     background-color: blue;
 
