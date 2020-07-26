@@ -1,27 +1,15 @@
 :root {
-  --heading-text-padding: 24px;
   --light: #008080;
   --dark: #004c4c;
   --dark-grey: #282828;
   --light-grey: #96958d;
   --mid-grey:  #6a6a6a;
   --ultra-light: #B2D8D8;
-}
 
-body {
-  margin: 0px;
-  background-color: var(--dark-grey);
-  font-family: sans-serif;
-}
-
-body h1 {
-  font-weight: normal;
-}
-
-p {
-  border: 0px;
-  margin: 0px;
-  padding:0px;
+  /* Flickity Vars*/
+  --fkty-height: 700px;
+  --hover-effect-anim-time: .25s;
+  --hover-effect-opacity: .85;
 }
 
 /* Copy class for header object. */
@@ -101,27 +89,21 @@ p {
 }
 
 .picture1 {
-  width: 70%;
-  padding-bottom: 21px;
-  display: block;
-  padding-left: 15%;
-  padding-right: auto;
+  width: 80%;
+  padding: 0% 10% 21px 10%;
 }
 
 .hello {
   width: 55%;
   margin-left: 22.5%;
   margin-right: 22.5%;
-  margin-bottom: 21px;
-  padding-bottom: 11px;
+  margin-bottom: 32px;
   color: var(--light);
-  font-family: Heebo, sans-serif;
 }
 
 .col-text {
   font-size: 19px;
   color: var(--dark-grey);
-  font-family: Heebo, sans-serif;
   padding-left: 41px;
   padding-right: 21px;
 }
@@ -129,7 +111,6 @@ p {
 .col-text-grey {
   font-size: 19px;
   color: var(--mid-grey);
-  font-family: Heebo, sans-serif;
   padding-left: 41px;
   padding-right: 21px;
 }
@@ -137,7 +118,6 @@ p {
 .col-text-br {
   font-size: 19px;
   color: var(--dark-grey);
-  font-family: Heebo, sans-serif;
   padding-left: 41px;
   padding-right: 21px;
   padding-top: 11px;
@@ -146,7 +126,6 @@ p {
 .col-text-end {
   font-size: 19px;
   color: var(--dark-grey);
-  font-family: Heebo, sans-serif;
   padding-left: 41px;
   padding-right: 21px;
   padding-bottom: 21px;
@@ -154,34 +133,24 @@ p {
 
 .col-header {
   color: var(--light);
-  font-family: Heebo, sans-serif;
-  padding-left: 21px;
-  padding-right: 21px;
+  padding: 0px 21px;
   text-align: center;
 }
 
 .circle-dot {
   font-size: 19px;
-  color: var(--dark-grey);
-  font-family: Heebo, sans-serif;
   padding-left: 11px;
   padding-right: 21px;
   list-style-type: circle;
-
-}
-
-ul {
-  margin: 0px;
 }
 
 
-
+/* Experiences */
 
 
 .experiences {
   width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0% 10%;
 }
 
 .exp {
@@ -199,7 +168,6 @@ ul {
 }
 
 .org-logo {
-  height: auto;
   width: 100%;
   padding-top: 21px;
  }
@@ -208,9 +176,7 @@ ul {
   padding-left: 7.5%;
   width: 15%;
   float: left;
-  margin-right: 0%;
-  margin-right: 0px;
-  display: inline-block;
+  margin: 0px;
 }
 
 .exp-col2 {
@@ -254,13 +220,15 @@ ul {
 .exp-header {
   letter-spacing: 2px;
   color: #d9d9d9;
-  font-family: Heebo, sans-serif;
   text-align: center;
   padding: 42px 21px;
 }
 
+
+
+/* Flickity CSS See Vars Above*/
 .img {
-  height: 700px;
+  height: var(--fkty-height);
   width: auto;
   position: relative;
   display: block;
@@ -275,7 +243,7 @@ ul {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .25s ease;
+  transition: var(--hover-effect-anim-time) ease;
   background-color: var(--dark-grey);
 }
 
@@ -292,5 +260,27 @@ ul {
 }
 
 .carousel-cell:hover .overlay {
-  opacity: .85;
+  opacity: var(--hover-effect-opacity);
+}
+
+
+/* Static */
+body {
+  margin: 0px;
+  background-color: var(--dark-grey);
+}
+
+ul {
+  margin: 0px;
+}
+
+body, h1 {
+  font-weight: normal;
+  font-family: Heebo, sans-serif;
+}
+
+p {
+  border: 0px;
+  margin: 0px;
+  padding:0px;
 }
