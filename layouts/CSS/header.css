@@ -10,7 +10,7 @@
   /*Numbers*/
   --header-height: 70px;
   --header-font-size: 26px;
-  --logo-height: calc( var(--header-font-size));
+  --logo-height: calc( var(--header-font-size) + 13px);
 
   /*Calcs*/
   --header-calc: calc(var(--header-height) - var(--header-font-size) - 5px); /*Honestly, I don't know why I need to subtract 5 here, but it seems to work. */
