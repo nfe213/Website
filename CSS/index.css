@@ -286,10 +286,10 @@ p {
 }
 
 /* Media Queries */
-@media all and (max-width: 500px) {
+@media all and (max-width: 1000px) {
   body{
     background-color: blue;
 
-    
+
   }
 }
