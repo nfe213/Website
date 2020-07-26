@@ -1,4 +1,4 @@
-console.log("running");
+console.log("Oh, hi. You've found my console!");
 
 function CubeSite() {
   window.open("https://thecube.eng.ua.edu/");

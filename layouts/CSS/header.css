@@ -1,0 +1,107 @@
+:root {
+  /*Colors*/
+  --light: #008080;
+  --dark: #004c4c;
+  --dark-grey: #282828;
+  --light-grey: #96958d;
+  --mid-grey:  #6a6a6a;
+  --ultra-light: #B2D8D8;
+
+  /*Numbers*/
+  --header-height: 70px;
+  --header-font-size: 26px;
+  --logo-height: calc( var(--header-font-size));
+
+  /*Calcs*/
+  --header-calc: calc(var(--header-height) - var(--header-font-size) - 5px); /*Honestly, I don't know why I need to subtract 5 here, but it seems to work. */
+  --logo-calc: calc(var(--header-height) - var(--logo-height));
+
+  --text-padding: calc( var(--header-calc) / 2);
+  --logo-padding: calc( var(--logo-calc) / 2);
+}
+
+.h-left {
+  display: inline-block;
+  float: left;
+  font-family: Heebo, sans-serif;
+  font-size: var(--header-font-size);
+  margin: 0px;
+  padding: var(--text-padding) 0px;
+}
+
+.logo {
+  float: left;
+  height: var(--logo-height);
+  padding: var(--logo-padding);
+  margin: 0px;
+}
+
+.header-obj {
+  display: inline-block;
+  padding: var(--text-padding);
+  color: white;
+  text-decoration: none;
+  font-size: var(--header-font-size);
+  transition: background .5s;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.header-obj-end {
+  display: inline-block;
+  padding: var(--text-padding);
+  color: white;
+  text-decoration: none;
+  font-size: var(--header-font-size);
+  transition: background .5s;
+  border-radius: 4px 4px 0px 0px;
+}
+
+
+
+
+/* Hover Effects */
+
+.header-obj:hover {
+  background: white;
+  color: var(--dark);
+  border-radius: 4px 4px 0px 0px;
+  transition: background .5s;
+}
+
+.header-obj-end:hover {
+  background: white;
+  color: var(--dark);
+  border-radius: 4px 4px 0px 0px;
+  transition: background .5s;
+}
+
+
+
+
+/* Static */
+body {
+  margin: 0px;
+  margin: 0px;
+  background-color: var(--dark-grey);
+  font-family: sans-serif;
+}
+
+p {
+  border: 0px;
+  margin: 0px;
+  padding:0px;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--light);
+  color: white;
+  overflow: auto;
+  height: var(--header-height);
+}
+
+.headers {
+  width: 80%;
+  padding: 0% 10% 0% 10%;
+  text-align: right;
+}

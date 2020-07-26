@@ -20,74 +20,15 @@ h1 {
   font-weight: normal;
 }
 
-.header {
+/* Copy class for header object. */
+.head-obj-cl {
   width: 100%;
-  background-color: var(--light);
-  color: white;
-  overflow: auto;
-  height: auto;
+  height: 70px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  display: block;
 }
-
-.headers {
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: right;
-}
-
-.h-left {
-  display: inline-block;
-  float: left;
-  font-family: Heebo, sans-serif;
-  font-size: 24px;
-  margin: 0px;
-  margin: 19px 15px 15px 15px;
-
-}
-
-.header-obj {
-  display: inline-block;
-  padding: 21px 15px;
-  font-size: var(--header-text-size);
-  color: white;
-  text-decoration: none;
-  border:0px;
-  font-size: 24px;
-  transition: background .5s;
-
-}
-
-.header-obj-end {
-  display: inline-block;
-  padding: 21px 15px;
-  font-size: var(--header-text-size);
-  color: white;
-  text-decoration: none;
-  border:0px;
-  font-size: 24px;
-  transition: background .5s;
-}
-
-.header-obj:hover {
-  background: white;
-  color: var(--dark);
-  border-radius: 4px 4px 0px 0px;
-  transition: background .5s;
-}
-
-.header-obj-end:hover {
-  background: white;
-  color: var(--dark);
-  border-radius: 4px 4px 0px 0px;
-  transition: background .5s;
-}
-
-.logo {
-  float: left;
-  height: 35px;
-  width: auto;
-  padding: 15px 0px;
-}
+/* End copy. */
 
 .section {
   width: 100%;
