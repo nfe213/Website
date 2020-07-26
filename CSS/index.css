@@ -260,15 +260,11 @@ ul {
 }
 
 .img {
-  height: 500px;
+  height: 700px;
   width: auto;
   position: relative;
   display: block;
 }
-
-/*.img:hover {
-  opacity: .5;
-}*/
 
 .overlay {
   position: absolute;
