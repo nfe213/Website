@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /-->
+    <link rel="stylesheet" type="text/css" href="../CSS/resume.css" />
+    <script type="text/javascript" src="../base.js"></script>
+    <title>Nathan Eads // Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="icon" href="../src/logo/icon.png">
+  </head>
+  <body>
+
+    <object class="head-obj-cl" data="../layouts/header.html"></object>
+
+    <div class="res-body">
+      <button class="button" type="submit" onclick="window.open('../docs/Eads.pdf')">Download Resume</button>
+
+
+      <canvas class="canvas" id="pdf-render"></canvas>
+    </div>
+
+    <object class="base-object" data="../layouts/base.html"></object>
+
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>
