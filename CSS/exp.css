@@ -333,3 +333,16 @@ h1 {
     margin-bottom: 100px;
   }
 }
+
+@media all and (max-width: 1140px) {
+  .head-obj-cl {
+    height: 78px;
+  }
+}
+
+
+@media all and (max-width: 890px) {
+  .head-obj-cl {
+    height: 160px;
+  }
+}
