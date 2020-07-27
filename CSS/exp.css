@@ -306,4 +306,14 @@ h1 {
   .c4 {
     width: 20%;
   }
+
+  .main {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  p, tbody {
+    font-size: 24px;
+  }
 }
