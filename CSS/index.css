@@ -286,10 +286,31 @@ p {
 }
 
 /* Media Queries */
-@media all and (max-width: 1000px) {
-  body{
+@media all and (max-width: 1100px) {
+  body {
     background-color: blue;
+  }
 
+  .col1, .col2, .col3 {
+    display: block;
+    float: none;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
+  .img {
+    height: 450px;
+  }
+
+  .exp {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 83px;
+  }
+  .exp-col2 {
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 }

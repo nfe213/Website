@@ -134,7 +134,7 @@ h1 {
   display:  inline-block;
   font-family: Heebo, sans-serif;
   color: var(--mid-grey);
-  font-weight:lighter;
+  font-weight: normal;
   padding-left: 11px;
 }
 
@@ -170,4 +170,15 @@ h1 {
 * {
   margin: 0;
   padding: 0;
+}
+
+@media all and (max-width: 1200px) {
+  .role, .head {
+    display: block;
+    float: none;
+  }
+
+  .role {
+    padding-left: 20%;
+  }
 }

@@ -40,14 +40,6 @@ h1 {
 }
 /* End copy. */
 
-.button {
-  width: 10%;
-  margin-left: 45%;
-  margin-right: 45%;
-  padding: 21px 15px 21px 15px;
-  margin-top: 7%;
-}
-
 .error {
   background: orangered;
   color: #fff;
@@ -134,4 +126,13 @@ h1 {
 * {
   margin: 0;
   padding: 0;
+}
+
+@media all and (max-width: 1300px) {
+  .button {
+    width: 30%;
+    margin: 6% 35%;
+    height: 120px;
+    font-size: 24px;
+  }
 }
