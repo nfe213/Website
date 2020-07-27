@@ -328,4 +328,8 @@ h1 {
   p, tbody {
     font-size: 24px;
   }
+
+  .section-last {
+    margin-bottom: 100px;
+  }
 }
