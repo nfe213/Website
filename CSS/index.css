@@ -12,6 +12,11 @@
   --hover-effect-opacity: .85;
 }
 
+.test-btn {
+  background-color: red;
+  cursor: pointer;
+}
+
 /* Copy class for header object. */
 .head-obj-cl {
   width: 100%;
@@ -104,8 +109,8 @@
 .col-text {
   font-size: 19px;
   color: var(--dark-grey);
-  padding-left: 41px;
-  padding-right: 21px;
+  margin-left: 41px;
+  margin-right: 21px;
 }
 
 .col-text-grey {
@@ -126,8 +131,8 @@
 .col-text-end {
   font-size: 19px;
   color: var(--dark-grey);
-  padding-left: 41px;
-  padding-right: 21px;
+  margin-left: 41px;
+  margin-right: 21px;
   padding-bottom: 21px;
 }
 
