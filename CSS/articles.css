@@ -76,6 +76,7 @@ h1 {
   margin-left: 20%;
   margin-top: 0px;
   padding-top: 50px;
+  font-size: 36px;
   display: inline-block;
 }
 
@@ -180,5 +181,27 @@ h1 {
 
   .role {
     padding-left: 20%;
+  }
+
+  .tbl {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .section, .section-final, .role {
+    font-size: 24px;
+  }
+
+  .head-top, .head {
+    font-size: 36px;
+  }
+
+  .super-header, .head-top, .head, .role {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+    text-align: left;
   }
 }
