@@ -1,10 +1,15 @@
 
 import swal from 'sweetalert';
 
-function button() {
-  swal("Hello world!");
-  console.log("Yo")
-};
+$(document).ready(function(){
+  function button() {
+    swal("Hello world!");
+    console.log("Yo");
+  }
+  $("#img-clck").click(button);
+});
+
+
 
 var navUserAgent = navigator.userAgent;
 var browserName  = navigator.appName;

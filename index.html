@@ -7,15 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link href="node_modules/sweetalert2/dist/sweetalert2.css" rel="stylesheet">
+
     <script type="text/javascript" src="./home.js"></script>
     <script type="text/javascript" src="./base.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </head>
   <body>
-    <div class="test">
-      <script type="text/javascript" src="./browserDetect.js"></script>
-
-      <a class="test-btn"onclick="button()">Hello There</a>
 
     <object class="head-obj-cl" data="./layouts/header.html"></object>
 
@@ -47,7 +46,6 @@
         <li class="col-text-end">HTML/CSS & JavaScript</li>
       </div>
     </div>
-  </div>
 
     <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": 3000, "pageDots": false, "wrapAround": true, "groupCells": true, "lazyLoad": true, "imagesLoaded": true}'>
       <div class="carousel-cell">
@@ -198,7 +196,18 @@
     <object class="base-object" data="./layouts/base.html"></object>
 
 
-    <script src="bundle.js" charset="utf-8"></script>
+    <div class="container">
+      <h1>sweetalert</h1>
+      <button onclick="sweetalertclick()" type="button">Try me!</button>
+    </div>
 
+    <script type="text/javascript">
+      function sweetalertclick() {
+        Swal('Hello World!')
+      }
+    </script>
+
+    <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="bundle.js" charset="utf-8"></script>
   </body>
 </html>
