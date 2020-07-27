@@ -112,6 +112,14 @@ h1 {
   margin-bottom: 0px;
 }
 
+.super-header1 {
+  font-size: 36px;
+  color: white;
+  padding-top: 83px;
+  color: var(--light);
+  margin-bottom: 0px;
+}
+
 .super-col1 {
   width: 47.5%;
   display: inline-block;
@@ -313,6 +321,9 @@ h1 {
     padding-right: 10%;
   }
 
+  .super-header1 {
+    padding-top: 140px;
+  }
 
   p, tbody {
     font-size: 24px;
