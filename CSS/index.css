@@ -287,9 +287,6 @@ p {
 
 /* Media Queries */
 @media all and (max-width: 1100px) {
-  body {
-    background-color: blue;
-  }
 
   .col1, .col2, .col3 {
     display: block;
