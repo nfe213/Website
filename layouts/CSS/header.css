@@ -45,6 +45,7 @@
   transition: background .5s;
   border-radius: 4px 4px 0px 0px;
   cursor: pointer;
+  height: 70px;
 }
 
 .header-obj-end {
@@ -56,6 +57,7 @@
   transition: background .5s;
   border-radius: 4px 4px 0px 0px;
   cursor: pointer;
+  height: 70px;
 }
 
 
