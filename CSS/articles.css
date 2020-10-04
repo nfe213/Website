@@ -112,10 +112,10 @@ h1 {
 .super-header {
   text-align: left;
   color: var(--light);
-  padding-top: 83px;
+  padding-top: 63px;
   margin: 0px;
   padding-left: 20%;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .c1-3 {
@@ -132,11 +132,11 @@ h1 {
 
 .role {
   font-size: 18px;
-  display:  inline-block;
+  display: block;
   font-family: Heebo, sans-serif;
   color: var(--mid-grey);
   font-weight: normal;
-  padding-left: 11px;
+  padding-left: 20%;
 }
 
 
@@ -165,10 +165,6 @@ h1 {
     font-size: 24px;
   }
 
-  .head-top, .head {
-    font-size: 36px;
-  }
-
   .super-header, .head-top, .head, .role {
     width: 80%;
     padding-left: 10%;
@@ -189,4 +185,8 @@ h1 {
   .head-obj-cl {
     height: 160px;
   }
+}
+
+.head-top, .head {
+  font-size: 25px;
 }

@@ -29,3 +29,7 @@ function mtb() {
 function forKai() {
   window.open("https://patch.com/georgia/sandysprings/riverwood-s-robotics-team-compete-state-competition");
 }
+
+function updates() {
+  window.open("https://www.gofundme.com/f/atlanta-face-shields");
+}
