@@ -114,10 +114,6 @@ p {
     padding-right: 5%;
   }
 
-  .header {
-    height: 76px;
-  }
-
   .h-left {
     display: none;
   }
@@ -138,8 +134,14 @@ p {
 }
 
 
-@media all and (max-width: 890px) {
+@media (max-width: 890px) {
+  .header-obj, .header-obj-end {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
   .header {
-    height: 160px;
+    height: 122.4px;
   }
 }

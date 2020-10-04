@@ -325,8 +325,9 @@ p {
 }
 
 
-@media all and (max-width: 890px) {
+@media (max-width: 600px) {
   .head-obj-cl {
-    height: 160px;
+    min-height: 122.4px;
+
   }
 }
