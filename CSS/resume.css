@@ -60,9 +60,9 @@ h1 {
 
 
 .button {
-  width: 15%;
-  margin-left: 42.5%;
-  margin-right: 42.5%;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
   padding: 21px 15px 21px 15px;
   margin-top: 3%;
   margin-bottom: 1%;
@@ -76,6 +76,11 @@ h1 {
   font-family: Heebo, sans-serif;
   transition: background .75s;
   transition: border-color 0.2s;
+
+  -webkit-user-select: none; /* Make text non-selectable Safari */
+  -moz-user-select: none; /* Make text non-selectable Firefox */
+  -ms-user-select: none; /* Make text non-selectable IE10+/Edge */
+  user-select: none; /* Make text non-selectable Standard */
 }
 
 .button:hover {
@@ -85,6 +90,11 @@ h1 {
   transition: background .75s;
   transition: border-color .25s;
   cursor: pointer;
+
+  -webkit-user-select: none; /* Make text non-selectable Safari */
+  -moz-user-select: none; /* Make text non-selectable Firefox */
+  -ms-user-select: none; /* Make text non-selectable IE10+/Edge */
+  user-select: none; /* Make text non-selectable Standard */
 }
 
 .button:focus {

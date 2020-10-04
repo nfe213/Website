@@ -45,6 +45,11 @@
   cursor: pointer;
   height: auto;
   padding: 20.6px 21px 20.6px 21px;
+
+  -webkit-user-select: none; /* Make text non-selectable Safari */
+  -moz-user-select: none; /* Make text non-selectable Firefox */
+  -ms-user-select: none; /* Make text non-selectable IE10+/Edge */
+  user-select: none; /* Make text non-selectable Standard */
 }
 
 .header-obj-end {
