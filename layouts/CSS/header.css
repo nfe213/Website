@@ -9,7 +9,7 @@
 
   /*Numbers*/
   --header-height: 70px;
-  --header-font-size: 26px;
+  --header-font-size: 24px;
   --logo-height: calc( var(--header-font-size) + 13px);
 
   /*Calcs*/
@@ -18,6 +18,10 @@
 
   --text-padding: calc( var(--header-calc) / 2);
   --logo-padding: calc( var(--logo-calc) / 2);
+}
+
+a {
+  text-align: center;
 }
 
 .h-left {
@@ -108,6 +112,10 @@ p {
 }
 
 @media all and (max-width: 1140px) {
+  a {
+    font-size: 18px;
+  }
+
   .headers{
     width: 90%;
     padding-left: 5%;
