@@ -48,12 +48,12 @@ a {
   transition: background .5s;
   cursor: pointer;
   height: 70px;
-  padding: 11px 21px 11px 0px
+  padding: 11px 21px 11px 0px;
 }
 
 .header-obj-end {
   display: inline-block;
-  padding: 11px 21px 11px 0px
+  padding: 11px 21px 11px 0px;
   color: white;
   text-decoration: none;
   font-size: var(--header-font-size);
