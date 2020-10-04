@@ -98,7 +98,6 @@ p {
   color: white;
   overflow: auto;
   height: var(--header-height);
-  max-height: 70px;
 }
 
 .headers {
