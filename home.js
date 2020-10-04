@@ -1,4 +1,4 @@
-console.log("Oh, hi. You've found my console!");
+console.log("Oh, hi. You've found my console! Don't mind the error messages, they aren't for anything imporant.");
 
 function CubeSite() {
   window.open("https://thecube.eng.ua.edu/");

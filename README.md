@@ -1,2 +1,2 @@
 # HUD-Code-JS
-Code for the HTML/CSS Bama Racing HUD 
+Frame for the HTML/CSS Bama Racing HUD reconfigured for personal website, all written by Nathan Eads. 
