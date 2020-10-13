@@ -163,6 +163,10 @@ span {
     padding: 11px 21px;
   }
 
+  .bottomEmail {
+    padding-top: 11px;
+  }
+
   .col {
     display: block;
     width: 70%;
