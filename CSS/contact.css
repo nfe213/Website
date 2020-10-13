@@ -63,6 +63,12 @@ span {
   padding-bottom: 80px;
 }
 
+.Download {
+  padding-bottom: 21px;
+  text-align: center;
+  color: var(--mid-grey);
+}
+
 /* Copy class for header object. */
 .head-obj-cl {
   width: 100%;
@@ -82,3 +88,13 @@ span {
   display: block;
 }
 /* End copy. */
+
+@media (max-width:1000px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  h3, a {
+    font-size: 18px;
+  }
+}
