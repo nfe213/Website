@@ -109,14 +109,16 @@ span {
   width: 32%;
   text-align: left;
   height: auto;
+  border-radius: 15px;
 }
 
 .col:hover {
   background-color: var(--dark);
-  border-radius: 15px;
+  transition: ease-in .2s;
 }
 
 .Download {
+  padding-top: 40px;
   text-align: center;
   color: var(--mid-grey);
 }
