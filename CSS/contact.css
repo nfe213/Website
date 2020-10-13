@@ -67,7 +67,8 @@ span {
 }
 
 .section-end {
-  padding-bottom: 80px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .socialInnerWrapper {
@@ -145,7 +146,7 @@ span {
 
 @media (max-width:1000px) {
   h2 {
-    font-size: 28px;
+    font-size: 34px;
   }
 
   h3, a {
