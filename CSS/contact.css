@@ -89,16 +89,17 @@ span {
 }
 /* End copy. */
 
-@media (max-width:1200px) {
+@media (max-width:1300px) {
   h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   h3, a {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .Download {
     font-size: 22px;
+    color: red;
   }
 }
