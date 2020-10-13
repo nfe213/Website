@@ -64,7 +64,7 @@ span {
 }
 
 .Download {
-  padding-bottom: 21px;
+  padding-bottom: 30px;
   text-align: center;
   color: var(--mid-grey);
 }
@@ -89,12 +89,16 @@ span {
 }
 /* End copy. */
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
   h2 {
     font-size: 24px;
   }
 
   h3, a {
     font-size: 18px;
+  }
+
+  .Download {
+    font-size: 22px;
   }
 }
