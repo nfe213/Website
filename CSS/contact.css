@@ -167,12 +167,16 @@ span {
 
   .col {
     display: block;
-    width: 60%;
-    margin: 0 20%;
+    height: 10px;
+    background-color: red;
   }
 
   .col-item {
     padding-top: 10px;
+  }
+
+  .col-item-wrapper {
+    margin: 0px;
   }
 }
 
